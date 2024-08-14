@@ -1,0 +1,80 @@
+# 《Game Accessibility Guidelines》notes
+
+[Game accessibility guidelines | A straightforward reference for inclusive game design](https://gameaccessibilityguidelines.com/)
+
+
+[TOC]
+
+## Motor
+
+### Basic
+
+#### - Allow controls to be remapped / reconfigured
+
+- **Best practice example:** 
+  - [Overwatch](http://gameaccessibilityguidelines.com/overwatch-remapping)
+  - [Street Fighter IV](http://gameaccessibilityguidelines.com/street-fighter-iv-remapping)
+  - [Counterstrike: Global Offensive](http://gameaccessibilityguidelines.com/counterstrikego-control-options)
+
+- **Tool:**
+  - [cInput remapping plugin for Unity](https://assetstore.unity.com/packages/tools/input-management/cinput-pro-3129)
+  - [inControl remapping plugin for Unity](https://assetstore.unity.com/packages/tools/input-management/incontrol-14695)
+
+- **More information:** 
+  - [AskACapper button remapping video](http://www.youtube.com/watch?v=9rRVcSCm4og)
+
+
+#### - Ensure controls are as simple as possible, or provide a simpler alternative
+
+- **Best practice example:** 
+
+  - [Guilty Gear Xrd Revelator](http://gameaccessibilityguidelines.com/guilty-gear-xrd-revelator-simpler-controls-option)
+
+  - [Uncharted 4](http://gameaccessibilityguidelines.com/uncharted-4-accessibility-settings/)
+
+  - [Everybody’s Gone To The Rapture](http://gameaccessibilityguidelines.com/everybodys-gone-to-the-rapture-simple-controls/)
+
+  - [NHL 17](http://gameaccessibilityguidelines.com/nhl-17-94-mode/) 
+
+  - [Bayonetta](http://www.youtube.com/watch?v=_6nkc6GQ-B8) (video) 
+
+  - [Fifa 13](http://www.youtube.com/watch?v=2ljeuOhKQ8o) (video)
+
+
+#### - Ensure that all areas of the user interface can be accessed using the same input method as the gameplay
+
+- So if example you have designed gameplay controls for a choice of erther keyboard or joypad, ensure that all menus also works for both keyboard and joypad, or if you've designed gameplay controls that work solely using motion controls, ensure your menus can also be controlled solely by using motion controls.
+
+#### - Including an option to adjust the sensitivity of controls
+
+- **Best practice example:** 
+  - [Destiny 2](http://gameaccessibilityguidelines.com/destiny-2-look-sensitivity-setting/)
+  
+  - [Elder Scrolls Online](http://gameaccessibilityguidelines.com/elder-scrolls-online-camera-settings/)
+  
+  - [Splatoon 2](http://gameaccessibilityguidelines.com/splatoon-2-camera-options/)
+  
+  - [Counterstrike: Global Offensive](http://gameaccessibilityguidelines.com/counterstrikego-control-options)
+  
+  - [Speedball 2 Evolution](http://gameaccessibilityguidelines.com/speedball-2-evolution-controls)
+  
+
+#### - Ensure interactive elements / virtual controls are large and well spaced, particularly on small or touch screens
+
+- 2.4cm has been found be the ideal size for touch screens, but impractical for smaller phone screens, so 0.96cm is the recommendation for phones.
+- **Best practice example**:
+  - [Flappy Bird](http://gameaccessibilityguidelines.com/flappy-bird-button-size)
+  - [Rush Rally](http://gameaccessibilityguidelines.com/rally-rush-buttons)
+
+
+#### - Include toggle/silder for any haptics
+
+- **Best practice example**:
+  - [Forza Horizon 4](http://gameaccessibilityguidelines.com/forza-horizon-4-vibration-slider/)
+  - [Injustice](http://gameaccessibilityguidelines.com/injustice-vibration-toggle/)
+
+- **More information**: [Hand disorder linked to vibrating console controllers](https://www.newscientist.com/article/dn1869-hand-disorder-linked-to-vibrating-console-controllers/)
+
+### Intermediate
+
+#### - Support more than one input device
