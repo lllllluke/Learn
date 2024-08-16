@@ -1328,3 +1328,139 @@ Function parameters and return values are the key mechanisms by which functions 
 
 ---
 ## 2.5 — Introduction to local scope
+
+### Local vairables
+
+Variables defined inside the body of a function are called **local variables **(as opposed to *global variables*).
+
+```c++
+int add(int x, int y) // function parameters x and y are local variables
+{
+    int z{x + y}; // z is a local variable
+    
+    return z;
+}
+```
+
+---
+
+### Local variable lifetime
+
+An object's **lifetime** is defined to be the time between its creation and destruction. 
+
+> Variable creation and destruction happen when the program is running (called runtime), not at compile time. Therefore, lifetime is a runtime property.
+>
+> Objects must be created and initialized no later than the point of definition, and destroyed no earlier than the end of the set of the curly braces in which they are defined (or, for function parameters, at the end of the function).
+
+```c++
+#include <iostream>
+void doSomething()
+{
+    std::cout << "Hello!\n";
+}
+
+int main()
+{
+    int x{0} // x's lifetime begins here
+    
+    doSomething(); // x is still alive during this function call
+    
+    return 0;
+} // x's lifetime ends here
+```
+
+---
+
+### What happens when an object is destroyed?
+
+The destroyed object becomes invalid, and any further use of the object will result in undefined behavior. At some point after destruction, the memory used by the object will be freed up for reuse.
+
+---
+
+### Local scope
+
+An identifier's **scope** determines where the identifier can seen and used within the source code. 
+
+When an identifier can be seen and used, we say it is **in scope**.
+
+When an identifier can not be seen, we can not use it, and we say it is **out of scope**.
+
+> Scope is a compile-time property, and trying to use an identifier when it is not in scope will result in a compile error.
+
+```c++
+#include <iostream>
+
+// x is not in scope anywhere in this function
+void doSomething()
+{
+    std::cout << "Hello!\n";
+}
+
+int main()
+{
+    //x can not be used here beacause it's not in scope yet
+    
+    int x{0}; // x enters scope here and can now be used within this function
+    
+    doSomething();
+    
+    return 0;
+} // x goes out of scope here and can no longer be used
+```
+
+---
+
+### "Out of scope" vs "going out of scope"
+
+An identifier is out of scope anywhere it cannot be accessed within the code. In the example above, the identifier `x` is in scope from its point of definition to the end of the `main` function. The identifier `x` is out of scope outside of that code region.
+
+The term “going out of scope” is typically applied to objects rather than identifiers. We say an object goes out of scope at the end of the scope (the end curly brace) in which the object was instantiated. In the example above, the object named `x` goes out of scope at the end of the function `main`.
+
+> A local variable’s lifetime ends at the point where it goes out of scope, so local variables are destroyed at this point.
+>
+> Note that not all types of variables are destroyed when they go out of scope. We’ll see examples of these in future lessons.
+
+---
+
+### Another example
+
+```c++
+#include <iostream>
+
+int add(int x, int y) // x and y are creat and enter scope here
+{
+    // x and y are usable only within add()
+    return x + y;
+} // y and x go out of scope and are destroyed here
+
+int main()
+{
+    int a{5}; // a is created, initialized, and enters scope here
+    int b{6}; // b is created, initialized, and enters scope here
+    
+    // a and b are usable only within main()
+    
+    std::cout << add(a,b) << '\n'; // calls add(5,6),where x=5 and y=6
+    
+    return 0;
+} // b and a go out of scope and are destroyed here
+```
+
+> The following happens, in order:
+>
+> - Execution starts at the top of `main`.
+> - `main` variable `a` is created and given value `5`.
+> - `main` variable `b` is created and given value `6`.
+> - Function `add` is called with argument values `5` and `6`.
+> - `add` parameters `x` and `y` are created and initialized with values `5` and `6` respectively.
+> - The expression `x + y` is evaluated to produce the value `11`.
+> - `add` copies the value `11` back to caller `main`.
+> - `add` parameters `y` and `x` are destroyed.
+> - `main` prints `11` to the console.
+> - `main` returns `0` to the operating system.
+> - `main` variables `b` and `a` are destroyed.
+
+---
+
+### Functional separation
+
