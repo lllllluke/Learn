@@ -104,3 +104,28 @@
 
 #### - Ensure that all key actions can be carried out by digital controls (pad / keys / presses), and included only as supplementary / alternative input methods
 
+- **Best practice example:** 
+  - [Doom](http://gameaccessibilityguidelines.com/doom-mousekeyboard-control-choice)
+
+### - Include an option to adjust the game speed
+
+- **Best practice example:** 
+  - [Celeste](http://gameaccessibilityguidelines.com/celeste-assist-mode/)
+  - [SYNSO:CE](http://gameaccessibilityguidelines.com/synsoce-settings)
+  - [Tropico 5](http://gameaccessibilityguidelines.com/tropico-5-game-speed/)
+  - [Shoot 1UP (01:10)](http://www.youtube.com/watch?v=Ct9VaTkz2Ns#t=1m10s) (video)
+
+### - Avoid repeated inputs (button-mashing/quick time events)
+
+- **Best practice example:**
+  -  [Uncharted 4](http://gameaccessibilityguidelines.com/uncharted-4-accessibility-settings/)
+  - [Castlevania Lords of Shadow 2](http://gameaccessibilityguidelines.com/castlevania-lords-of-shadow-2-qte-toggle)
+  - [The Witcher 2](http://gameaccessibilityguidelines.com/the-witcher-2-qte-difficulty)
+
+### - If producing a PC game, support windowed mode for compatibility with overlaid virtual keyboards
+
+- **Best practice example:** 
+  - [Torchlight II](http://gameaccessibilityguidelines.com/torchlight-windowed-mode)
+
+### - Avoid / provide alternatives to requiring buttons to be held down
+
