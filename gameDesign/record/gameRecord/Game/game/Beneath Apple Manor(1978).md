@@ -1,0 +1,87 @@
+![image.png](https://997523841-1323914366.cos.ap-shanghai.myqcloud.com/ObsidianPic/20240311143929.png)
+- Don Worth, 1978
+- Apple II (PC Booter, Atari 8-bit)*
+- the first RPG-like games for home computers
+- the very first commercial computer game
+- prototype for [[Rogue(1980)]]
+---
+## Mechanics
+- Level
+	- can be customised
+		- chose the number of rooms per level
+			- 4-7, depending on RAM
+		- difficulty factor
+	- each hoard had a supposed Apple
+	- ![image.png](https://997523841-1323914366.cos.ap-shanghai.myqcloud.com/ObsidianPic/20240311202224.png)
+		- BAM allowed you to customise the sizes of the levels, and to choose between display modes and 10 difficulty settings
+- item
+	- Gold
+		- Function
+			- upgrades to weapons and armour
+			- get “brain scan”
+	- “brain scan”
+		- Function
+			- saved your character
+			- if role die, the scan restores you to life at the staircase and any money you had at the time is dropped
+			- Each use reduced the stats of your next “reload” by 10%
+		- was good only for the current game
+	- Golden Apple
+	- supposed Apple
+		- Function
+			- level were soon reloading
+- Role
+	- Levels were created on the fly as you went deeper into the dungeon.
+	- Stats point 
+		- Acquisition method
+			- traded points at 10 XP for 1 stat point
+		- four stats
+			- Strength
+				- Fighting depleted Strength
+				- can be restored through breather after combat
+			- Dexterity
+				- movement reduced Dexterity
+				- Resting brought back up
+			- Body
+				- only a Heal spell could restore hit points
+			- Intelligence
+				- spellcasting lowered Intelligence
+				- Resting brought back up
+	- Experience
+		- Acquisition method
+			- killing monsters bringing treasure back to the main staircase(the starting point of each level)
+- Monster
+	- were limited to five
+	- each had its own type of nastiness
+		- green slime
+			- dissolve armour
+		- ghost
+			- reduced your Strength permanently
+		- troll
+			- regenerated
+		- purple worm
+			- kill you in one hit
+		- red dragon
+			- kill you in one hit
+			- had tough hides
+	- increased in power the further down pla went
+- Operation
+	- ![image.png|400](https://997523841-1323914366.cos.ap-shanghai.myqcloud.com/ObsidianPic/20240311195907.png)
+		- Commands are all over the keyboard, and each action depletes one of your attributes
+		- each action depletes one of your attributes
+
+---
+## Aesthetics
+- can chose black-and-white or colour graphics
+- monsters (and player, too) were represented by letters and treasure by $.
+- ![image.png|400](https://997523841-1323914366.cos.ap-shanghai.myqcloud.com/ObsidianPic/20240311192952.png)
+	- My character (Y) finds a treasure chest ($) while trying to run from a slime (S). It was cursed.
+---
+## Story
+- to find the fabled Golden Apple, rumoured to be in a dragon hoard far below the surface.
+---
+## Technology
+- It could run in as little as 16K RAM (tape version) or in 32K+ (disk version, which I had).
+- ![image.png|400](https://997523841-1323914366.cos.ap-shanghai.myqcloud.com/ObsidianPic/20240311202358.png)
+	- Beneath Apple Manor: Special Edition added so-called “hi-res graphics”, but you could still play in ASCII mode.
+- ![image.png|400](https://997523841-1323914366.cos.ap-shanghai.myqcloud.com/ObsidianPic/20240311203153.png)
+	- Playing a huge dungeon floor in colour mode: We (the blue square) listen at a door, behind which a troll apparently lurks

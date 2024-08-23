@@ -1,0 +1,2 @@
+- ![image.png|100](https://997523841-1323914366.cos.ap-shanghai.myqcloud.com/ObsidianPic/20240311184256.png)
+- one of the first third-party games by Activision 

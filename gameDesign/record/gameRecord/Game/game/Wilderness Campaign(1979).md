@@ -1,0 +1,14 @@
+- compared with [[Dungeon Campaign(1978)]]
+	- explore a large outdoor area
+		- fighting enemies and exploring ruins in search of treasure
+	- hiring more troops and buying equipment in villages
+	- in order to cross the map, reach the castle and defeat the evil necromancer
+	- combat
+		- hire hundreds of mercenaries and buy better equipment
+		- Some offer bonuses against special enemies
+			- silver daggers against werewolves
+	- crossing rough terrain
+		- a mountain might require a rope
+		- while a jungle area might require a machete
+- ![image.png](https://997523841-1323914366.cos.ap-shanghai.myqcloud.com/ObsidianPic202403181513144.png)
+	- Wilderness Campaign’s map is fixed, but points of interest are randomly placed, such as the town I’m at (purple icon).

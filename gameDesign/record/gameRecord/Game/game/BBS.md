@@ -1,0 +1,7 @@
+- Bulletin Board System
+- went online in 1978
+	- peaked in popularity during the early and mid-'90s
+	- was replaced by the Internet
+- BBSs like ExecPC('90s)
+	- ![image.png|200](https://997523841-1323914366.cos.ap-shanghai.myqcloud.com/ObsidianPic/20240311184539.png)
+	- allowed the sharing of freeware and shareware games 

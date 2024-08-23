@@ -1,0 +1,3 @@
+- ![image.png|200](https://997523841-1323914366.cos.ap-shanghai.myqcloud.com/ObsidianPic/20240311180037.png)
+- Video Home System
+- remain home video market dominant until the early 2000s

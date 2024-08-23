@@ -1,0 +1,5 @@
+- defend yourself against invaders from Atlantis and find a way to stop them once and for all
+- more like an adventure game
+	- less focus on stats and several puzzles that must be solved via a textparser.
+- ![image.png](https://997523841-1323914366.cos.ap-shanghai.myqcloud.com/ObsidianPic202403181514042.png)
+	- Apventure to Atlantis added elements from text adventure games, such as item puzzles, static images and a text-parser

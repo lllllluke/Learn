@@ -115,7 +115,7 @@ A common example of a moving interface is an entire menu that moves as the contr
 
 - [Doom](http://gameaccessibilityguidelines.com/doom-mousekeyboard-control-choice)
 
-### - Include an option to adjust the game speed
+#### - Include an option to adjust the game speed
 
 **Best practice example:** 
 
@@ -124,7 +124,7 @@ A common example of a moving interface is an entire menu that moves as the contr
 - [Tropico 5](http://gameaccessibilityguidelines.com/tropico-5-game-speed/)
 - [Shoot 1UP (01:10)](http://www.youtube.com/watch?v=Ct9VaTkz2Ns#t=1m10s) (video)
 
-### - Avoid repeated inputs (button-mashing/quick time events)
+#### - Avoid repeated inputs (button-mashing/quick time events)
 
 **Best practice example:**
 
@@ -132,13 +132,13 @@ A common example of a moving interface is an entire menu that moves as the contr
 - [Castlevania Lords of Shadow 2](http://gameaccessibilityguidelines.com/castlevania-lords-of-shadow-2-qte-toggle)
 - [The Witcher 2](http://gameaccessibilityguidelines.com/the-witcher-2-qte-difficulty)
 
-### - If producing a PC game, support windowed mode for compatibility with overlaid virtual keyboards
+#### - If producing a PC game, support windowed mode for compatibility with overlaid virtual keyboards
 
 **Best practice example:** 
 
 - [Torchlight II](http://gameaccessibilityguidelines.com/torchlight-windowed-mode)
 
-### - Avoid / provide alternatives to requiring buttons to be held down
+#### - Avoid / provide alternatives to requiring buttons to be held down
 
 **Best practice examples**:
 
@@ -152,7 +152,7 @@ A common example of a moving interface is an entire menu that moves as the contr
 
 - [Uncharted 4 accessibility settings](https://gameaccessibilityguidelines.com/uncharted-4-accessibility-settings/)
 
-### - Allow interfaces to be rearranged
+#### - Allow interfaces to be rearranged
 
 **Best practice examples**:
 
@@ -160,7 +160,7 @@ A common example of a moving interface is an entire menu that moves as the contr
 - [Into the Dead presets](https://gameaccessibilityguidelines.com/into-the-dead-presets/)
 - [Zenonia 2 customisable UI](https://gameaccessibilityguidelines.com/zenonia-2-customisable-ui/)
 
-### - Allow interface to be resized
+#### - Allow interface to be resized
 
 **Best practice examples**:
 
@@ -170,14 +170,14 @@ A common example of a moving interface is an entire menu that moves as the contr
 - [Madden 17 enlarge UI option](https://gameaccessibilityguidelines.com/madden-17-enlarge-ui-option/)
 - [Rally Rush buttons](https://gameaccessibilityguidelines.com/rally-rush-buttons/)
 
-### - Provide a macro system
+#### - Provide a macro system
 
 **Best practice examples**:
 
 - [Final Fantasy XIV macros](https://gameaccessibilityguidelines.com/final-fantasy-xiv-macros/)
 - [Word of Warcraft macros](https://gameaccessibilityguidelines.com/word-of-warcraft-macros/)
 
-### -  Do not rely on motion tracking of specific body types
+#### -  Do not rely on motion tracking of specific body types
 
 **Best practice examples**:
 
@@ -191,7 +191,44 @@ A common example of a moving interface is an entire menu that moves as the contr
 - [The user is disabled: solving for physical limitations in VR](https://www.vrinflux.com/the-user-is-disabled-solving-for-physical-limitations-in-vr/)
 - [VR & accessibility](https://www.gamedeveloper.com/audio/vr-accessibility)
 
-## Advanced
+### Advanced
 
-### - Allow play in both landscape and portrait
+#### - Allow play in both landscape and portrait
+
+**Best practice example**:
+
+- [Laddersnake orientations](https://gameaccessibilityguidelines.com/laddersnake-orientations/)
+
+#### - Do not make precise timing essential to gameplay - offer alternatives, actions that can be carried out while paused, or a skip mechanism
+
+**Best practice examples**:
+
+- [Deadly Scramble no timer mode](https://gameaccessibilityguidelines.com/deadly-scramble-no-timer-mode/)
+- [Final Fantasy XV wait mode](https://gameaccessibilityguidelines.com/final-fantasy-xv-wait-mode/)
+- [Dragon Age 2](https://gameaccessibilityguidelines.com/example/dragon-age-2/)
+- [Fallout 3 VATs](https://gameaccessibilityguidelines.com/example/fallout-3-vats/)
+
+#### - Include a cool-down period (post acceptance delay)  of 0.5 seconds between inputs
+
+#### - Provide very simple control schemes that are compatible with assistive technology devices, such as switch or eye tracking
+
+**Best practice examples**:
+
+- [Minigolf Accessible control options](https://gameaccessibilityguidelines.com/minigolf-accessible-control-options/)
+- [Day of the Tentacle Remastered with Eye Gaze](https://gameaccessibilityguidelines.com/example/day-of-the-tentacle-remastered-with-eye-gaze/)
+- [Forza 4 (Racing With Switches)](https://gameaccessibilityguidelines.com/example/forza-4-racing-with-switches/)
+
+**Additional information**:
+
+- [Switch access on Wikipedia](http://en.wikipedia.org/wiki/Switch_access)
+
+## Cognitive
+
+Thought / memory / processing information
+
+### Basic
+
+#### - Allow the game to be started without the need to navigate through multiple levels of menus
+
+
 

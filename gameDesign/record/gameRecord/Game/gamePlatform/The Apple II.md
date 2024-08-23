@@ -1,0 +1,3 @@
+- ![image.png|200](https://997523841-1323914366.cos.ap-shanghai.myqcloud.com/ObsidianPic/20240311175835.png)
+- the first mass-market home computer
+- the only early system to have colour
